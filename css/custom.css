@@ -1,0 +1,85 @@
+body {
+  padding-top: 88px;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-fixed-top {
+  min-height: 70px;
+}
+
+.navbar-toggle{
+  margin-top: 18px;
+}
+
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  /*padding: 100px 0;*/
+  text-align: center;
+  color: black;
+  background-color: #FFFFFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: 400;
+}
+
+.intro .intro-body .intro-text {
+  font-size: 18px;
+  margin: 15px 0px 15px 0px;
+}
+
+@media(min-width:768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+.fa-hand-o-down {
+  color:purple;
+}
+
+#about{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  height: auto;
+  display: table;
+  padding: 100px 0 0 0;
+}
+
+#experience{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  height: auto;
+  display: table;
+  padding: 100px 0 0 0;
+}
+
