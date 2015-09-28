@@ -68,7 +68,7 @@
       <p>Mauris at placerat dolor, sit amet condimentum sapien. Praesent placerat rutrum dui a tempor. Phasellus blandit tellus nec porttitor efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed finibus velit vel lectus bibendum dictum.</p>
       <p>Aliquam eget sollicitudin ex, ac fringilla eros. Integer id ultricies justo. Aliquam ut gravida velit. Nam sed dolor vel nulla fermentum imperdiet sagittis eget lacus.</p>
 
-      <a href="__"><img class="img-responsive center-block dropshadow" src="assets/rit_logo_photo2.png" style="padding-left:20px; padding-right:20px; width:55%"></a>
+      <a id="certificate" href="assets/SF_certificate.png"><img class="img-responsive center-block dropshadow" src="assets/rit_logo_photo2.png" style="padding-left:20px; padding-right:20px; width:55%"></a>
     </div>
   </div>
 </section>
@@ -100,8 +100,23 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--fancybox for modal popup-->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- jQuery to run fancybox-->
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $("#certificate").fancybox({
+    overlay: {
+        css: {
+          'background' : 'rgba(58, 42, 45, 0.95)'
+        }
+      }
+  });
+});
+</script>
 </body>
 </html>
 
