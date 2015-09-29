@@ -61,8 +61,12 @@ html {
   }
 }
 
-.fa-hand-o-down {
+.fa {
   color:purple;
+}
+
+.fa:hover {
+  color:black;
 }
 
 #about{
@@ -101,7 +105,18 @@ a:hover img.dropshadow {
   padding: 100px 0 0 0;
 }
 
+#contact{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  height: auto;
+  display: table;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
 footer {
   font-family: 'Josefin Sans', sans-serif;
+  padding: 20px 0 10px 0;
 }
 
