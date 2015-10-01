@@ -17,6 +17,10 @@ html {
   margin-top: 18px;
 }
 
+#copy{
+  padding-left:15px;
+  padding-right:15px;
+}
 
 .intro {
   display: table;
