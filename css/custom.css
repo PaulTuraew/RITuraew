@@ -109,6 +109,16 @@ a:hover img.dropshadow {
   padding: 100px 0 0 0;
 }
 
+.bold-exp{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.border-left{
+  border-left: 1px solid;
+  margin-bottom: 10px;
+}
+
 #contact{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
